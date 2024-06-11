@@ -8,14 +8,35 @@
         display: none;
     }
 
-    .banner h1{
+    .banner h1 {
         font-size: 3em;
+    }
+
+    .Menu-OffCanvas {
+        margin: auto auto auto 30px;
+        display: block;
+    }
+
+    .bi-search::before {
+        content: "\f52a";
+        margin: auto 15px auto auto;
+    }
+
+}
+
+@media (max-width: 1000px) and (min-width: 768px) {
+    .userbar li {
+        margin: 0 20px;
+    }
+
+    .Menu-OffCanvas {
+        display: none;
     }
 }
 
-@media (max-width: 856px) and (min-width: 768px){
-    .userbar li {
-        margin: 0 20px;
+@media (min-width: 1000px){
+    .Menu-OffCanvas {
+        display: none;
     }
 }
 
