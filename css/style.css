@@ -20,6 +20,12 @@ html {
   justify-content: space-around;
 }
 
+.flex-produto {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
 header {
   width: 100%;
   padding: 10px 5%;
@@ -28,6 +34,17 @@ header {
   top: 0;
   left: 0;
   transition: .5s;
+}
+
+.header {
+  position: static;
+  background-color: #000000bb;
+}
+
+.header::before {
+  background-image: none;
+  background-color: #000;
+
 }
 
 header::before {
@@ -232,7 +249,8 @@ header ul li a:hover {
 /* INÍCIO DO CSS CORPO */
 main {
   /* ... */
-  padding-bottom: 80px; /* Adiciona espaço para o footer */
+  padding-bottom: 80px;
+  /* Adiciona espaço para o footer */
 }
 
 .corpo {
@@ -256,21 +274,21 @@ main {
   /* Ajuste a altura para que o botão "Ver Mais" apareça */
   /*float: right;  */
 
-  display: block; 
+  display: block;
   gap: 20px;
-  margin: 0 10px; 
-  margin-bottom: 80px; 
+  margin: 0 10px;
+  margin-bottom: 80px;
 }
 
-#paginacao { 
-  display: flex; 
-  justify-content: center; 
-  gap: 10px; 
+#paginacao {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
   color: #fff;
   align-items: center;
 }
 
-#paginacao button{
+#paginacao button {
   background-color: rgba(30, 30, 30, 0.898);
   border: none;
   color: #fff;
@@ -282,35 +300,54 @@ main {
   border-radius: 5px;
 }
 
+.produto-info a {
+  color: #fff;
+  text-decoration: none;
+}
+
+#adicionar-carrinho{
+  background-color: rgba(30, 30, 30, 0.898);
+}
+
 /* FIM DO CSS CORPO */
 
 /* INÍCIO DO CSS RODAPÉ */
 /* style.css */
 .Rodape {
-  background-color:  rgba(30, 30, 30, 0.748); 
+  background-color: rgba(30, 30, 30, 0.748);
   padding: 30px;
   text-align: center;
   color: #fff;
-  display: flex; /* Use flexbox para organizar em colunas */
-  justify-content: space-around; /* Distribui as colunas uniformemente */
-  flex-wrap: wrap; /* Permite que as colunas quebrem em linhas menores */
+  display: flex;
+  /* Use flexbox para organizar em colunas */
+  justify-content: space-around;
+  /* Distribui as colunas uniformemente */
+  flex-wrap: wrap;
+  /* Permite que as colunas quebrem em linhas menores */
 }
 
-.Rodape > div { /* Seleciona os divs filhos do rodapé */
-  flex: 1 1 250px; /* Define a largura das colunas */
-  margin: 0 10px; /* Espaçamento entre as colunas */
-  margin: 10px; 
-  text-align: left; /* Alinha o texto à esquerda dentro das colunas */
+.Rodape>div {
+  /* Seleciona os divs filhos do rodapé */
+  flex: 1 1 250px;
+  /* Define a largura das colunas */
+  margin: 0 10px;
+  /* Espaçamento entre as colunas */
+  margin: 10px;
+  text-align: left;
+  /* Alinha o texto à esquerda dentro das colunas */
 }
 
-.Rodape ul { /* Estiliza a lista */
-  list-style-type: none; /* Remove os marcadores da lista */
-  padding: 0; /* Remove o espaçamento interno padrão da lista */
+.Rodape ul {
+  /* Estiliza a lista */
+  list-style-type: none;
+  /* Remove os marcadores da lista */
+  padding: 0;
+  /* Remove o espaçamento interno padrão da lista */
 }
 
 .Rodape a {
-  color: #fff; 
-  text-decoration: none; 
+  color: #fff;
+  text-decoration: none;
 }
 
 .Rodape a:hover {
@@ -319,8 +356,8 @@ main {
 }
 
 .Rodape .titulo {
-  font-size: 1.2rem; 
-  font-weight: bold; 
+  font-size: 1.2rem;
+  font-weight: bold;
   margin-bottom: 10px;
 }
 
@@ -347,14 +384,71 @@ main {
 
 /* Adicionando estilos para a seção de destaques */
 #destaques {
-  flex: 0 0 300px; /* Largura fixa para o destaque */
-  margin-left: 20px; /* Espaço entre o destaque e os produtos */
+  flex: 0 0 300px;
+  /* Largura fixa para o destaque */
+  margin-left: 20px;
+  /* Espaço entre o destaque e os produtos */
 }
 
 #destaques .Card {
-  margin-bottom: 20px; /* Espaçamento entre as Cards em destaque */
+  margin-bottom: 20px;
+  /* Espaçamento entre as Cards em destaque */
 }
 
 #destaques .Card img {
-  height: 200px; /* Altura fixa para a imagem da Card em destaque */
+  height: 200px;
+  /* Altura fixa para a imagem da Card em destaque */
+}
+
+
+/* Descrição Do Produtoas */
+.produto-detalhe {
+  padding: 50px 0;
+  text-align: center;
+}
+
+.produto-imagem {
+  flex: 0 0 400px;
+}
+
+.produto-imagem img {
+  width: 100%;
+  height: auto;
+}
+
+.produto-info {
+  flex: 1;
+  margin-left: 30px;
+}
+
+.produto-info h1 {
+  font-size: 2.5rem;
+  margin-bottom: 15px;
+}
+
+.produto-info p {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.produto-info button {
+  background-color: #D90404;
+  /* Cor do botão */
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.produto-info button:hover {
+  background-color: #93A2BF;
+  /* Cor do botão ao passar o mouse */
+}
+
+.produto-detalhe {
+  background-color: #ffffff7b;
+  /* border-radius: 20px; */
 }

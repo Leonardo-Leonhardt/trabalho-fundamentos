@@ -28,6 +28,13 @@
     #destaques {
         display: none;
     }
+
+    .flex-produto {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-direction: column;
+    }
 }
 
 @media (max-width: 1000px) and (min-width: 821px) {
