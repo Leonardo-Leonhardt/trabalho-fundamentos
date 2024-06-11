@@ -1,11 +1,14 @@
 /* Estilo para telas menores (móveis) */
-@media (max-width: 768px) {
+@media (max-width: 820px) {
     .card {
         display: none;
     }
 
     .userbar {
         display: none;
+    }
+    .banner{
+        text-align: center;
     }
 
     .banner h1 {
@@ -22,9 +25,12 @@
         margin: auto 15px auto auto;
     }
 
+    #destaques {
+        display: none;
+    }
 }
 
-@media (max-width: 1000px) and (min-width: 768px) {
+@media (max-width: 1000px) and (min-width: 821px) {
     .userbar li {
         margin: 0 20px;
     }
@@ -32,12 +38,14 @@
     .Menu-OffCanvas {
         display: none;
     }
+
+    #destaques {
+        flex: 0 0 250px; /* Reduz a largura para 250px */
+    }
 }
 
-@media (min-width: 1000px){
+@media (min-width: 1000px) {
     .Menu-OffCanvas {
         display: none;
     }
 }
-
-/* Estilo para telas maiores (desktops) */

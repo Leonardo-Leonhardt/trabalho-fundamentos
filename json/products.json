@@ -1,44 +1,240 @@
-[
-  {
-    "imagem": "../img/img-camisa/BRASIL.jpg",
-    "titulo": "Camisa da Seleção Brasileira",
-    "descricao": "Camisa masculina da seleção brasileira",
-    "preco": "R$ 299,99",
-    "botao": "Ver Mais"
-  },
-  {
-    "imagem": "../img/img-camisa/REAL-MADRID.jpg",
-    "titulo": "Camisa do Real Madrid",
-    "descricao": "Camisa masculina do Real Madrid",
-    "preco": "R$ 299,99",
-    "botao": "Ver Mais"
-  },
-  {
-    "imagem": "../img/img-camisa/BARCELONA.jpg",
-    "titulo": "Camisa do Barcelona",
-    "descricao": "Camisa masculina do Barcelona",
-    "preco": "R$ 299,99",
-    "botao": "Ver Mais"
-  },
-  {
-    "imagem": "../img/img-camisa/LIVERPOOL.jpg",
-    "titulo": "Camisa do Liverpool",
-    "descricao": "Camisa masculina do Liverpool",
-    "preco": "R$ 299,99",
-    "botao": "Ver Mais"
-  },
-  {
-    "imagem": "../img/img-camisa/ATLÉTICO-MINEIRO.jpg",
-    "titulo": "Camisa do Atlético Mineiro",
-    "descricao": "Camisa masculina do Atlético Mineiro",
-    "preco": "R$ 299,99",
-    "botao": "Ver Mais"
-  },
-  {
-    "imagem": "../img/img-camisa/PARIS-SAINT-GERMAN.jpg",
-    "titulo": "Camisa do Paris Saint German",
-    "descricao": "Camisa masculina do Paris Saint German",
-    "preco": "R$ 299,99",
-    "botao": "Ver Mais"
-  }
-]
+  [
+    {
+      "imagem": "../img/img-camisa/BRASIL.jpg",
+      "titulo": "Camisa da Seleção Brasileira",
+      "descricao": "Camisa masculina da seleção brasileira",
+      "preco": "R$ 299,99",
+      "botao": "Ver Mais"
+    },
+    {
+      "imagem": "../img/img-camisa/REAL-MADRID.jpg",
+      "titulo": "Camisa do Real Madrid",
+      "descricao": "Camisa masculina do Real Madrid",
+      "preco": "R$ 299,99",
+      "botao": "Ver Mais"
+    },
+    {
+      "imagem": "../img/img-camisa/BARCELONA.jpg",
+      "titulo": "Camisa do Barcelona",
+      "descricao": "Camisa masculina do Barcelona",
+      "preco": "R$ 299,99",
+      "botao": "Ver Mais"
+    },
+    {
+      "imagem": "../img/img-camisa/LIVERPOOL.jpg",
+      "titulo": "Camisa do Liverpool",
+      "descricao": "Camisa masculina do Liverpool",
+      "preco": "R$ 299,99",
+      "botao": "Ver Mais"
+    },
+    {
+      "imagem": "../img/img-camisa/ATLÉTICO-MINEIRO.jpg",
+      "titulo": "Camisa do Atlético Mineiro",
+      "descricao": "Camisa masculina do Atlético Mineiro",
+      "preco": "R$ 299,99",
+      "botao": "Ver Mais"
+    },
+    {
+      "imagem": "../img/img-camisa/PARIS-SAINT-GERMAN.jpg",
+      "titulo": "Camisa do Paris Saint German",
+      "descricao": "Camisa masculina do Paris Saint German",
+      "preco": "R$ 299,99",
+      "botao": "Ver Mais"
+    },
+    {
+      "imagem": "../img/img-NBA/blusa/IMG-20240611-WA0001.jpg",
+      "titulo": "Camisa do ",
+      "descricao": "Camisa masculina do ",
+      "preco": "R$ 299,99",
+      "botao": "Ver Mais"
+    },
+    {
+      "imagem": "../img/img-NBA/blusa/IMG-20240611-WA0003.jpg",
+      "titulo": "Camisa do ",
+      "descricao": "Camisa masculina do ",
+      "preco": "R$ 299,99",
+      "botao": "Ver Mais"
+    },
+    {
+      "imagem": "../img/img-NBA/blusa/IMG-20240611-WA0004.jpg",
+      "titulo": "Camisa do ",
+      "descricao": "Camisa masculina do ",
+      "preco": "R$ 299,99",
+      "botao": "Ver Mais"
+    },
+    {
+      "imagem": "../img/img-NBA/blusa/IMG-20240611-WA0005.jpg",
+      "titulo": "Camisa do ",
+      "descricao": "Camisa masculina do ",
+      "preco": "R$ 299,99",
+      "botao": "Ver Mais"
+    },
+    {
+      "imagem": "../img/img-NBA/blusa/IMG-20240611-WA0006.jpg",
+      "titulo": "Camisa do ",
+      "descricao": "Camisa masculina do ",
+      "preco": "R$ 299,99",
+      "botao": "Ver Mais"
+    },
+    {
+      "imagem": "../img/img-NBA/short/IMG-20240611-WA0007.jpg",
+      "titulo": "Short do ",
+      "descricao": "Short masculina do ",
+      "preco": "R$ 299,99",
+      "botao": "Ver Mais"
+    },
+    {
+      "imagem": "../img/img-NBA/short/IMG-20240611-WA0008.jpg",
+      "titulo": "Short do ",
+      "descricao": "Short masculina do ",
+      "preco": "R$ 299,99",
+      "botao": "Ver Mais"
+    },
+    {
+      "imagem": "../img/img-NBA/blusa/IMG-20240611-WA0009.jpg",
+      "titulo": "Camisa do ",
+      "descricao": "Camisa masculina do ",
+      "preco": "R$ 299,99",
+      "botao": "Ver Mais"
+    },
+    {
+      "imagem": "../img/img-NBA/blusa/IMG-20240611-WA0010.jpg",
+      "titulo": "Camisa do ",
+      "descricao": "Camisa masculina do ",
+      "preco": "R$ 299,99",
+      "botao": "Ver Mais"
+    },
+    {
+      "imagem": "../img/img-NBA/blusa/IMG-20240611-WA0011.jpg",
+      "titulo": "Camisa do ",
+      "descricao": "Camisa masculina do ",
+      "preco": "R$ 299,99",
+      "botao": "Ver Mais"
+    },
+    {
+      "imagem": "../img/img-NBA/short/IMG-20240611-WA0012.jpg",
+      "titulo": "Short do ",
+      "descricao": "Short masculina do ",
+      "preco": "R$ 299,99",
+      "botao": "Ver Mais"
+    },
+    {
+      "imagem": "../img/img-NBA/short/IMG-20240611-WA0013.jpg",
+      "titulo": "Short do ",
+      "descricao": "Short masculina do ",
+      "preco": "R$ 299,99",
+      "botao": "Ver Mais"
+    },
+    {
+      "imagem": "../img/img-NBA/blusa/IMG-20240611-WA0014.jpg",
+      "titulo": "Camisa do ",
+      "descricao": "Camisa masculina do ",
+      "preco": "R$ 299,99",
+      "botao": "Ver Mais"
+    },
+    {
+      "imagem": "../img/img-NBA/blusa/IMG-20240611-WA0015.jpg",
+      "titulo": "Camisa do ",
+      "descricao": "Camisa masculina do ",
+      "preco": "R$ 299,99",
+      "botao": "Ver Mais"
+    },
+    {
+      "imagem": "../img/img-NBA/blusa/IMG-20240611-WA0016.jpg",
+      "titulo": "Camisa do ",
+      "descricao": "Camisa masculina do ",
+      "preco": "R$ 299,99",
+      "botao": "Ver Mais"
+    },
+    {
+      "imagem": "../img/img-NBA/blusa/IMG-20240611-WA0017.jpg",
+      "titulo": "Camisa do ",
+      "descricao": "Camisa masculina do ",
+      "preco": "R$ 299,99",
+      "botao": "Ver Mais"
+    },
+    {
+      "imagem": "../img/img-NBA/blusa/IMG-20240611-WA0018.jpg",
+      "titulo": "Camisa do ",
+      "descricao": "Camisa masculina do ",
+      "preco": "R$ 299,99",
+      "botao": "Ver Mais"
+    },
+    {
+      "imagem": "../img/img-NBA/blusa/IMG-20240611-WA0019.jpg",
+      "titulo": "Camisa do ",
+      "descricao": "Camisa masculina do ",
+      "preco": "R$ 299,99",
+      "botao": "Ver Mais"
+    },
+    {
+      "imagem": "../img/img-NBA/blusa/IMG-20240611-WA0020.jpg",
+      "titulo": "Camisa do ",
+      "descricao": "Camisa masculina do ",
+      "preco": "R$ 299,99",
+      "botao": "Ver Mais"
+    },
+    {
+      "imagem": "../img/img-NBA/blusa/IMG-20240611-WA0021.jpg",
+      "titulo": "Camisa do ",
+      "descricao": "Camisa masculina do ",
+      "preco": "R$ 299,99",
+      "botao": "Ver Mais"
+    },
+    {
+      "imagem": "../img/img-NBA/blusa/IMG-20240611-WA0022.jpg",
+      "titulo": "Camisa do ",
+      "descricao": "Camisa masculina do ",
+      "preco": "R$ 299,99",
+      "botao": "Ver Mais"
+    },
+    {
+      "imagem": "../img/img-NBA/blusa/IMG-20240611-WA0023.jpg",
+      "titulo": "Camisa do ",
+      "descricao": "Camisa masculina do ",
+      "preco": "R$ 299,99",
+      "botao": "Ver Mais"
+    },
+    {
+      "imagem": "../img/img-NBA/blusa/IMG-20240611-WA0024.jpg",
+      "titulo": "Camisa do ",
+      "descricao": "Camisa masculina do ",
+      "preco": "R$ 299,99",
+      "botao": "Ver Mais"
+    },
+    {
+      "imagem": "../img/img-NBA/blusa/IMG-20240611-WA0025.jpg",
+      "titulo": "Camisa do ",
+      "descricao": "Camisa masculina do ",
+      "preco": "R$ 299,99",
+      "botao": "Ver Mais"
+    },
+    {
+      "imagem": "../img/img-NBA/blusa/IMG-20240611-WA0026.jpg",
+      "titulo": "Camisa do ",
+      "descricao": "Camisa masculina do ",
+      "preco": "R$ 299,99",
+      "botao": "Ver Mais"
+    },
+    {
+      "imagem": "../img/img-NBA/short/IMG-20240611-WA0027.jpg",
+      "titulo": "Short do ",
+      "descricao": "Short masculina do ",
+      "preco": "R$ 299,99",
+      "botao": "Ver Mais"
+    },
+    {
+      "imagem": "../img/img-NBA/short/IMG-20240611-WA0028.jpg",
+      "titulo": "Short do ",
+      "descricao": "Short masculina do ",
+      "preco": "R$ 299,99",
+      "botao": "Ver Mais"
+    },
+    {
+      "imagem": "../img/img-NBA/short/IMG-20240611-WA0029.jpg",
+      "titulo": "Short do ",
+      "descricao": "Short masculina do ",
+      "preco": "R$ 299,99",
+      "botao": "Ver Mais"
+    }
+  ]
