@@ -46,7 +46,7 @@ function renderizarProdutos(pagina) {
   const inicio = (pagina - 1) * produtosPorPagina;
   const fim = inicio + produtosPorPagina;
 
-  cards.slice(inicio, fim).forEach(card => {
+  cards.slice(inicio, fim).forEach((card, indice) => {
     const divCard = document.createElement('div');
     divCard.classList.add('Card'); 
 
@@ -67,6 +67,13 @@ function renderizarProdutos(pagina) {
 
     const buttonVerMais = document.createElement('button');
     buttonVerMais.textContent = card.botao;
+
+    // Adicione o atributo `data-indice` para armazenar o índice do produto
+    buttonVerMais.dataset.indice = (pagina - 1) * produtosPorPagina + indice;
+    buttonVerMais.addEventListener('click', () => {
+      const indiceProduto = buttonVerMais.dataset.indice;
+      window.location.href = `descricao-produto.html?indice=${indiceProduto}`; 
+    });
 
     divContent.appendChild(h1Titulo);
     divContent.appendChild(h2Descricao);
@@ -210,6 +217,68 @@ function atualizarPagina(novaPagina) {
 }
 
 
+
 // Inicialização da paginação
 habilitarDesabilitarBotoes();
 atualizarInformacaoPagina(); 
+
+// ... código existente ...
+
+// Função para renderizar os produtos em destaque (lado direito)
+function renderizarDestaques(pagina) {
+  const destaquesContainer = document.getElementById('destaques');
+  const destaques = destaquesContainer.querySelectorAll('.Card');
+  destaques.forEach(destaque => destaque.remove());
+
+  // Seleciona 3 produtos aleatórios
+  const produtosAleatorios = [];
+  while (produtosAleatorios.length < 3) {
+    let indiceAleatorio = Math.floor(Math.random() * cards.length);
+    if (!produtosAleatorios.includes(indiceAleatorio)) {
+      produtosAleatorios.push(indiceAleatorio);
+    }
+  }
+
+  produtosAleatorios.forEach((indice, index) => { // Adicione o `index` aqui
+    const card = cards[indice];
+    const divCard = document.createElement('div');
+    divCard.classList.add('Card'); 
+
+    const imgCard = document.createElement('img');
+    imgCard.src = card.imagem;
+    imgCard.alt = card.titulo;
+
+    const divContent = document.createElement('div'); 
+
+    const h1Titulo = document.createElement('h1');
+    h1Titulo.textContent = card.titulo;
+
+    const h2Descricao = document.createElement('h2');
+    h2Descricao.textContent = card.descricao;
+
+    const spanPreco = document.createElement('span');
+    spanPreco.textContent = card.preco;
+
+    const buttonVerMais = document.createElement('button');
+    buttonVerMais.textContent = card.botao;
+
+    // Adicione o atributo `data-indice` para armazenar o índice do produto
+    buttonVerMais.dataset.indice = indice; // Utilize o `indice` para o destaque
+    buttonVerMais.addEventListener('click', () => {
+      const indiceProduto = buttonVerMais.dataset.indice;
+      window.location.href = `descricao-produto.html?indice=${indiceProduto}`; 
+    });
+
+    divContent.appendChild(h1Titulo);
+    divContent.appendChild(h2Descricao);
+    divContent.appendChild(spanPreco);
+    divContent.appendChild(buttonVerMais); 
+
+    divCard.appendChild(imgCard);
+    divCard.appendChild(divContent); 
+
+    destaquesContainer.appendChild(divCard); 
+  });
+}
+
+// ... código existente ... 
