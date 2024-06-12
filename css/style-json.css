@@ -44,11 +44,11 @@
 
 .Card h2 {
   font-size: 0.9rem;
-  color: #fff;
+  color: #000;
 }
 
 .Card button {
-  background-color: #000;
+  background-color: #ff0000;
   color: #fff;
   border: none;
   padding: 4px;
