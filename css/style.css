@@ -11,6 +11,7 @@ html {
   background-repeat: no-repeat; 
   background-position: center; 
   background-attachment: fixed; 
+}
 
 .container {
   max-width: 1280px;
